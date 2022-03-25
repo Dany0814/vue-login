@@ -10,7 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="Agricultura de Precisión" />
    </div>
   </header>
-  <div class="test">
+  <div cclass="card-container">
     <router-view></router-view>
   </div>
 </template>
@@ -27,8 +27,8 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 
 .test {
-    width: 500px;
-    height: 700px;
+    width: 300px;
+    height: 400px;
 
 }
 

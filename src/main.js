@@ -4,7 +4,7 @@ import "bootstrap";
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import router from './router'
-axios.defaults.baseURL = 'https://localhost:8000/'
+axios.defaults.baseURL = 'http://localhost:8000/'
 
 var token = localStorage.getItem('token');
 if(token)
